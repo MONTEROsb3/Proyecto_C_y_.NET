@@ -10,15 +10,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            DETALLLES REPARACION
+            DetalleReparaciones
         </div>
-        <div>
 
         <div>
             <asp:GridView ID="GridView1" runat="server" Height="352px" Width="483px">
             </asp:GridView>
         </div>
-
+        
     </form>
 </body>
 </html>
