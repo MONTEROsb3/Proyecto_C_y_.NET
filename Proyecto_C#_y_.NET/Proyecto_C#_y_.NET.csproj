@@ -71,6 +71,7 @@
     <Content Include="DetallesReparacion.aspx" />
     <Content Include="EQUIPOS.aspx" />
     <Content Include="Reparaciones.aspx" />
+    <Content Include="USUARIOS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +103,13 @@
     </Compile>
     <Compile Include="Reparaciones.aspx.designer.cs">
       <DependentUpon>Reparaciones.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USUARIOS.aspx.cs">
+      <DependentUpon>USUARIOS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USUARIOS.aspx.designer.cs">
+      <DependentUpon>USUARIOS.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

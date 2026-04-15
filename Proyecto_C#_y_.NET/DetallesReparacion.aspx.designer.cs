@@ -10,7 +10,6 @@
 namespace Proyecto_C__y_.NET
 {
 
-
     public partial class DetallesReparacion
     {
 
