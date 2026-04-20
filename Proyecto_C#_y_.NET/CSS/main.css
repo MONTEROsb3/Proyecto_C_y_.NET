@@ -1,0 +1,13 @@
+﻿/* 
+   Cuerpo base de la página.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+p {
+    color: black;
+}

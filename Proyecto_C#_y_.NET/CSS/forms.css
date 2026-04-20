@@ -1,0 +1,37 @@
+﻿/*
+    Parte gráfica de los formularios de la aplicación.
+*/
+
+.form-section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+    .btn-volver:hover {
+        background: #1d4ed8;
+    }

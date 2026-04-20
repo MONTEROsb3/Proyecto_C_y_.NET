@@ -1,0 +1,50 @@
+﻿/*
+    Estilos para el diseño general del sitio
+*/
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Esto centra el contenido de cada botón individualmente */
+.card {
+    display: flex;
+    flex-direction: column; /* Pone el texto debajo de la imagen */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin: 73px; /* Espacio entre tarjetas */
+}
+
+/* Esto organiza todas las tarjetas en la pantalla */
+.menu {
+    display: flex;
+    flex-wrap: wrap; /* Permite que bajen si no caben en una fila */
+    justify-content: center; /* Centra todo el grupo en la página */
+    align-items: flex-start;
+    padding: 20px;
+}
